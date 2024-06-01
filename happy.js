@@ -8,12 +8,12 @@ function validateLogin() {
     var password = passwordInput.value;
 
     // Gantilah 'your_default_username' dan 'your_default_password' dengan nilai default yang diinginkan.
-    var defaultUsername = 'Simmo';
-    var defaultPassword = 'simmo123';
+    var defaultUsername = 'Cesaer';
+    var defaultPassword = 'cesaer123';
 
     if (username === defaultUsername && password === defaultPassword) {
         // Tampilkan pemberitahuan berhasil jika login berhasil
-        notification.innerHTML = 'Login berhasil! Akan diarahkan ke halaman Ulang Tahun...';
+        notification.innerHTML = 'Login berhasil! Akan diarahkan ke halaman Utama...';
         notification.style.backgroundColor = '#00cc00';
         notificationOverlay.style.display = 'block';
 
